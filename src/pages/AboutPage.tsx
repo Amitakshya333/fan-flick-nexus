@@ -12,7 +12,7 @@ const AboutPage = () => {
         {/* Hero Section */}
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-6xl font-bold gradient-text mb-4">
-            About FanHub
+            About MANIACS
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Where movie fans unite to share, discover, and celebrate cinema
@@ -24,12 +24,12 @@ const AboutPage = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              FanHub is built for the Gen Z movie enthusiast who wants more than just watching films. 
-              We're creating a vibrant community where your voice matters, your reviews inspire others, 
+              MANIACS is built for the Gen Z movie enthusiast who wants more than just watching films. 
+              We're creating a vibrant community where your voice matters, your reviews inspire others,
               and discovering your next favorite movie is an adventure.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Whether you're a casual viewer or a cinema fanatic, FanHub is your digital home for 
+              Whether you're a casual viewer or a cinema fanatic, MANIACS is your digital home for 
               all things movies and TV shows.
             </p>
           </div>
@@ -130,7 +130,7 @@ const AboutPage = () => {
             Ready to Join?
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Start your movie journey with FanHub today
+            Start your movie journey with MANIACS today
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="lg" asChild>
@@ -146,7 +146,7 @@ const AboutPage = () => {
       {/* Footer */}
       <footer className="border-t border-white/10 py-8 mt-16">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; 2024 FanHub. All rights reserved.</p>
+          <p>&copy; 2024 MANIACS. All rights reserved.</p>
         </div>
       </footer>
     </div>

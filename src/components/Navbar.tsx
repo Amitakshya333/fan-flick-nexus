@@ -32,7 +32,7 @@ export const Navbar = () => {
   }, [location]);
 
   const handleLogout = () => {
-    localStorage.removeItem('fanhub_user');
+    localStorage.removeItem('maniacs_user');
     setCurrentUser(null);
     window.location.href = '/';
   };
@@ -60,7 +60,7 @@ export const Navbar = () => {
               <Film className="w-6 h-6 text-white" />
             </div>
             <span className="text-xl font-bold gradient-text hidden sm:block">
-              FanHub
+              MANIACS
             </span>
           </Link>
 

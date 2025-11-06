@@ -79,7 +79,7 @@ const SignupPage = () => {
 
       toast({
         title: "Account created!",
-        description: "Welcome to FanHub community",
+        description: "Welcome to MANIACS community",
       });
 
       setIsLoading(false);
@@ -104,7 +104,7 @@ const SignupPage = () => {
                 <Film className="w-8 h-8 text-white" />
               </div>
             </Link>
-            <h1 className="text-3xl font-bold gradient-text">Join FanHub</h1>
+            <h1 className="text-3xl font-bold gradient-text">Join MANIACS</h1>
             <p className="text-muted-foreground">Create your account and start reviewing</p>
           </div>
 

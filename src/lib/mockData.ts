@@ -1,4 +1,4 @@
-// Mock data for FanHub platform
+// Mock data for MANIACS platform
 
 export interface Movie {
   id: number;
@@ -253,16 +253,16 @@ export const mockReviews: Review[] = [
 
 // Helper function to get current user from localStorage
 export const getCurrentUser = (): User | null => {
-  const userStr = localStorage.getItem('fanhub_user');
+  const userStr = localStorage.getItem('maniacs_user');
   return userStr ? JSON.parse(userStr) : null;
 };
 
 // Helper function to save current user
 export const saveCurrentUser = (user: User | null) => {
   if (user) {
-    localStorage.setItem('fanhub_user', JSON.stringify(user));
+    localStorage.setItem('maniacs_user', JSON.stringify(user));
   } else {
-    localStorage.removeItem('fanhub_user');
+    localStorage.removeItem('maniacs_user');
   }
 };
 
