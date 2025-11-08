@@ -40,6 +40,7 @@ export const Navbar = () => {
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "/gallery", label: "Gallery" },
+    { to: "/community", label: "Community" },
     { to: "/about", label: "About" },
   ];
 
