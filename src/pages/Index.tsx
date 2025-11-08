@@ -151,7 +151,7 @@ const HomePage = () => {
             </p>
             <Button variant="hero" size="lg" asChild>
               <Link to="/signup">
-                Get Started Free
+                Be a MANIAC
               </Link>
             </Button>
           </div>
